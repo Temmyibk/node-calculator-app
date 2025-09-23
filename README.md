@@ -1,74 +1,58 @@
-# node-calculator-app
-A command-line calculator built with Node.js.
-This project demonstrates modular programming in Node.js, clean code organization, and beginner-friendly practices.
+ # Node-Calculator-App  
 
-Features
+This is a simple calculator project, built with **Node.js**.  
+It performs basic arithmetic operations and demonstrates the use of **custom modules**, **built-in modules**, and **third-party packages**.  
 
-Perform basic arithmetic operations:
+---
 
-➕ Addition
+## Features  
 
-➖ Subtraction
+Perform basic arithmetic operations:  
+- ➕ **Addition**  
+- ➖ **Subtraction**  
+- ✖️ **Multiplication**  
+- ➗ **Division**  
 
-✖️ Multiplication
+Other features:  
+-  Command-line interface (CLI) usage  
+-  Modularized code structure for reusability  
+-  Easy to extend with new operations  
 
-➗ Division
+---
 
-Command-line interface (CLI) usage
+##  Project Structure  
 
-Modularized code structure for reusability
-
-Easy to extend with new operations
-
-Project Structure
-
+```bash
 node-calculator-app/
-│
-├── app.js              # Main entry point
-├── package.json        # Project configuration
-│
-└── my_module/          # Custom modules
-    ├── calculator.js   # Arithmetic logic
-    └── textFormatter.js# Helper for text formatting
+│── app.js             # Main entry point  
+│── package.json       # Project metadata & dependencies  
+│── my_module/  
+│   ├── calculator.js      # Arithmetic operations  
+│   └── textFormatter.js   # Formats text input (e.g. names)  
+│── .gitignore         # Ignored files for Git  
+│── README.md          # Project documentation  
 
-    Usage
 
-Run the calculator from the command line:
-    node app.js <operation> <num1> <num2>
+⚡ Installation & Usage
 
-    Example
-    node app.js add 5 3
-# Output: 8
+1. Navigate to your project folder:
+    cd node-calculator-app
+2. Install dependencies:
+    npm install/i
+3. Run with command-line arguments:
+    node app.js add 5 10 15
+    node app.js subtract 50 25
+    node app.js multiply 6 7
+    node app.js divide 100 5
+4.  Or use interactive mode:
+    node app.js
 
-node app.js subtract 10 4
-# Output: 6
+## Tech Stack
+  Node.js (JavaScript runtime)
+  Chalk (for colourful console output)
+  Boxen (for styled CLI messages)
+  Readline (for interactive CLI input)
 
-node app.js multiply 7 6
-# Output: 42
-
-node app.js divide 20 4
-# Output: 5
-
-How It Works
-
-app.js takes user input from the command line.
-
-Operations are handled by my_module/calculator.js.
-
-Results are displayed in a user-friendly format with textFormatter.js.
-
-Technologies Used
-
-Node.js
- – Runtime environment
-
-JavaScript (ES6 Modules)
-
-Author
-
-👩‍💻 Temitope Ibikunle
-
-GitHub
-
-LinkedIn
+Developer: Temitope Ibikunle
+Registration Number: BD/2025/TC3/148
 
