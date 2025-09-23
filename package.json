@@ -1,0 +1,26 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "A Node.js CLI calculator project built with chalk, boxen, and readline to practice ES modules and interactive command-line apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temmyibk/node-calculator-app.git"
+  },
+  "keywords": [ "calculator","cli","command-line","math","arithmetic","add","subtract","multiply","divide","chalk","boxen",
+  "readline","nodejs","interactive","app" ],
+  "author": "Temitope Ibikunle",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Temmyibk/node-calculator-app/issues"
+  },
+  "homepage": "https://github.com/Temmyibk/node-calculator-app#readme",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2"
+  }
+}
