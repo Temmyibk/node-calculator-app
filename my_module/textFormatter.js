@@ -17,4 +17,4 @@ function formatName(firstName, lastName) {
     // Return the full name with proper formatting
     return `${formattedFirst} ${formattedLast}`;
 }
-export { formatName };
+export  {formatName};

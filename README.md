@@ -55,4 +55,5 @@ node-calculator-app/
 
 Developer: Temitope Ibikunle
 Registration Number: BD/2025/TC3/148
+linkedln: linkedin.com/in/temitope-ibikunle
 

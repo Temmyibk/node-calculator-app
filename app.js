@@ -1,3 +1,9 @@
+//app.js
+// Main application file for a simple calculator CLI tool.
+// This file imports functions from custom modules and uses them to perform arithmetic operations.
+// It also formats and displays the developer's name and registration number using chalk for styling 
+// and boxen for a bordered welcome message.
+
 import { add, subtract, multiply, divide } from "./my_module/calculator.js";
 import chalk from "chalk";
 import readline from "readline";
